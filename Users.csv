@@ -1,0 +1,59 @@
+user_id,first_name,last_name,email,phone,registration_date,city,state,country,age_bracket
+1,John,Smith,john.smith@example.com,555-123-4567,5/15/2020,New York,NY,USA,36-45
+2,Emily,Jones,emily.jones@example.com,,2/28/2021,Los Angeles,CA,USA,26-35
+3,Michael,Brown,michael.b@example.com,555-987-6543,11/10/2019,Chicago,IL,USA,36-45
+4,Sarah,Wilson,sarah.wilson@example.com,555-456-7890,7/22/2022,Houston,TX,USA,26-35
+5,David,Taylor,david.t@example.com,,1/5/2023,Phoenix,AZ,USA,18-25
+6,Jennifer,Johnson,jennifer.j@example.com,555-234-5678,9/17/2018,Philadelphia,PA,USA,46-55
+7,Robert,Williams,robert.w@example.com,555-876-5432,4/30/2021,San Antonio,,USA,36-45
+8,Jessica,Anderson,jessica.a@example.com,555-345-6789,12/12/2020,San Diego,CA,USA,26-35
+9,Thomas,Jackson,thomas.j@example.com,+44 20 7946 0958,6/25/2017,London,,UK,46-55
+10,Elizabeth,White,elizabeth.w@example.com,555-567-8901,3/8/2022,Austin,TX,USA,26-35
+11,Daniel,Harris,daniel.h@example.com,,8/14/2019,Jacksonville,FL,USA,36-45
+12,Patricia,Martin,patricia.m@example.com,555-678-9012,10/31/2020,Fort Worth,TX,USA,56+
+13,Christopher,Garcia,christopher.g@example.com,555-789-0123,9/15/2021,Columbus,OH,USA,26-35
+14,Linda,Rodriguez,linda.r@example.com,+61 2 9876 5432,4/22/2018,Sydney,NSW,Australia,46-55
+15,Matthew,Martinez,matthew.m@example.com,555-890-1234,2/18/2023,Charlotte,NC,USA,18-25
+16,Amanda,Lee,amanda.lee@example.com,555-901-2345,7/7/2021,Seattle,WA,USA,26-35
+17,James,Walker,james.w@example.com,,3/19/2020,Denver,CO,USA,36-45
+18,Ashley,Hall,ashley.h@example.com,555-012-3456,12/25/2019,Washington,DC,USA,26-35
+19,Joshua,Allen,joshua.a@example.com,555-123-4567,8/14/2022,Boston,MA,USA,18-25
+20,Stephanie,Young,stephanie.y@example.com,555-234-5678,11/3/2021,El Paso,TX,USA,26-35
+21,Kevin,King,kevin.k@example.com,,6/22/2020,Nashville,TN,USA,36-45
+22,Nicely,Scott,nicely.s@example.com,555-345-6789,5/17/2018,Detroit,MI,USA,46-55
+23,Brian,Green,brian.g@example.com,555-456-7890,3/30/2023,Portland,OR,USA,18-25
+24,Nancy,Baker,nancy.b@example.com,555-567-8901,9/11/2020,Memphis,TN,USA,36-45
+25,Timothy,Adams,timothy.a@example.com,+1 416 555 1234,4/5/2019,Toronto,ON,Canada,26-35
+26,Karen,Nelson,karen.n@example.com,,1/28/2022,Oklahoma City,OK,USA,46-55
+27,Richard,Carter,richard.c@example.com,555-678-9012,10/9/2021,Las Vegas,NV,USA,36-45
+28,Lisa,Mitchell,lisa.m@example.com,555-789-0123,8/16/2017,Louisville,KY,USA,56+
+29,Charles,Perez,charles.p@example.com,555-890-1234,2/14/2020,Baltimore,MD,USA,36-45
+30,Amber,Roberts,amber.r@example.com,,4/1/2023,Milwaukee,WI,USA,18-25
+31,Steven,Turner,steven.t@example.com,555-901-2345,11/23/2018,Albuquerque,NM,USA,36-45
+32,Melissa,Phillips,melissa.p@example.com,555-012-3456,5/12/2021,Tucson,AZ,USA,26-35
+33,Jeffrey,Campbell,jeffrey.c@example.com,+44 20 7946 0959,7/4/2019,Fresno,CA,USA,36-45
+34,Rebecca,Parker,rebecca.p@example.com,555-123-4567,9/19/2022,Sacramento,CA,USA,26-35
+35,Ryan,Evans,ryan.e@example.com,,12/31/2020,Kansas City,MO,USA,18-25
+36,Kimberly,Edwards,kimberly.e@example.com,555-234-5678,3/8/2018,Atlanta,GA,USA,46-55
+37,Gary,Collins,gary.c@example.com,555-345-6789,6/27/2021,Omaha,NE,USA,36-45
+38,Emma,Stewart,emma.s@example.com,555-456-7890,1/15/2023,Raleigh,NC,USA,18-25
+39,Ronald,Sanchez,ronald.s@example.com,,10/11/2019,Miami,FL,USA,36-45
+40,Samantha,Morris,samantha.m@example.com,555-567-8901,7/3/2020,Colorado Springs,CO,USA,26-35
+41,Jason,Rogers,jason.r@example.com,555-678-9012,4/22/2022,Virginia Beach,VA,USA,26-35
+42,Heather,Reed,heather.r@example.com,+61 3 9876 5432,9/14/2017,Oakland,CA,USA,56+
+43,Eric,Cook,eric.c@example.com,555-789-0123,2/5/2021,Minnepolis,MN,USA,36-45
+44,Debra,Morgan,debra.m@example.com,,8/18/2020,Tulsa,OK,USA,46-55
+45,Scott,Bell,scott.b@example.com,555-890-1234,5/29/2019,Wichita,KS,USA,36-45
+46,Sharon,Murphy,sharon.m@example.com,555-901-2345,3/12/2023,Arlington,TX,USA,26-35
+47,Brandon,Bailey,brandon.b@example.com,555-012-3456,12/7/2018,New Orleans,LA,USA,18-25
+48,Rachel,Rivera,rachel.r@example.com,,1/24/2021,Cleveland,OH,USA,26-35
+49,Benjamin,Cooper,benjamin.c@example.com,+1 604 555 1234,10/16/2020,Bakersfield,CA,USA,36-45
+50,Angela,Richardson,angela.r@example.com,555-123-4567,6/9/2019,Tampa,FL,USA,46-55
+51,Justin,Cox,justin.c@example.com,555-234-5678,11/28/2022,Aurora,CO,USA,26-35
+52,Megan,Howard,megan.h@example.com,,8/13/2021,Honolulu,HI,USA,18-25
+53,Samuel,Ward,samuel.w@example.com,555-345-6789,4/30/2017,Anaheim,CA,USA,56+
+54,Anna,Torres,anna.t@example.com,555-456-7890,1/22/2020,Santa Ana,CA,USA,26-35
+55,Patrick,Peterson,patrick.p@example.com,555-567-8901,5/5/2023,Corpus Christi,TX,USA,18-25
+56,Ruth,Gray,ruth.g@example.com,,7/17/2018,Riverside,CA,USA,46-55
+57,Dennis,Ramirez,dennis.r@example.com,555-678-9012,9/28/2019,Lexington,KY,USA,36-45
+58,Shirley,James,shirley.j@example.com,555-789-0123,12/10/2022,St. Louis,MO,USA,56+
