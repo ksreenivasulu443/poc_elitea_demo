@@ -1,4 +1,4 @@
-User Story Name: Generating the test cases for clinical data
+User Story Name: Testcase creation for clinical data
 
 Description: 
 	The files is present in the data Folder.
