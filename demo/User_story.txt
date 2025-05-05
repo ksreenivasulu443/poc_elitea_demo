@@ -1,0 +1,16 @@
+User Story Name: Generating the test cases for clinical data
+
+Description: 
+	The data file is present in the data source. 
+	We need to analyze the data and create the testcases.
+
+Acceptance Criteria:
+
+All the data-quality testcases should be covered.
+All the data integrity testcases should be covered.
+All the data consistency testcases should be covered.
+All the metadata testcases should be covered.
+
+Functional Requirements:
+
+The data source should have the data.
