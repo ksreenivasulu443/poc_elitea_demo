@@ -1,7 +1,7 @@
 User Story Name: Generating the test cases for clinical data
 
 Description: 
-	The data file is present in the data source. 
+	The files is present in the data Folder.
 	We need to analyze the data and create the testcases.
 
 Acceptance Criteria:
