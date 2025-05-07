@@ -3,7 +3,7 @@ User Story Name: Categorization based on the age range.
 Description:
 	Verify the "Age Category" field in "age_category_data.csv". 
 	For the Patient age refer the "Clinical_Data_Validation_Cohort.xlsx"  and bith the files are mapped based on "Patient ID".
-	If the patient age falls under the specific range then create new column age_category.
+	The Age category calculated based on below condition. 
 	If the age is less than 12 then "Childhood"
 	If the age is between 12 and 20 then “Teenage”
 	If the age is between 21 and 60 then “Adult”
