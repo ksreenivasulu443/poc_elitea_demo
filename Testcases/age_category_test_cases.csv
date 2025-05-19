@@ -1,0 +1,7 @@
+Test Case ID,Description,Expected Result,Test Data
+TC_01,Verify that age 0-12 is categorized as "Child",Age category should be "Child",Age = 10
+TC_02,Verify that age 13-19 is categorized as "Teen",Age category should be "Teen",Age = 15
+TC_03,Verify that age 20-35 is categorized as "Young Adult",Age category should be "Young Adult",Age = 25
+TC_04,Verify that age 36-55 is categorized as "Adult",Age category should be "Adult",Age = 40
+TC_05,Verify that age 56-75 is categorized as "Senior",Age category should be "Senior",Age = 60
+TC_06,Verify that age 76 and above is categorized as "Elderly",Age category should be "Elderly",Age = 80
