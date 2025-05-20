@@ -1,18 +1,19 @@
 import pytest
+import pandas as pd
 
-# Sample test data
-age_data = {
-    10: "Child",
-    15: "Teen",
-    25: "Young Adult",
-    40: "Adult",
-    60: "Senior",
-    80: "Elderly"
-}
+# Load the data files
+clinical_data = pd.read_excel('Clinical_Data_Validation_Cohort.xlsx')
+age_category_data = pd.read_csv('age_category_data.csv')
 
-@pytest.mark.parametrize("age, expected_category", age_data.items())
+# Map the files based on 'Patient ID'
+merged_data = pd.merge(clinical_data, age_category_data, on='Patient ID')
+
+@pytest.mark.parametrize("age, expected_category", [
+    (5, "Childhood"),
+    (15, "Teenage"),
+    (30, "Adult"),
+    (65, "Old")
+])
 def test_age_category(age, expected_category):
-    # Here you would call the function that categorizes age
-    # For example: category = categorize_age(age)
-    # assert category == expected_category
-    assert True  # Placeholder assertion for demonstration
+    result = merged_data[merged_data['Age'] == age]['Age Category'].values[0]
+    assert result == expected_category, f"Expected {expected_category} but got {result}"
