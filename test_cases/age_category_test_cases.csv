@@ -1,5 +1,17 @@
 Test Case ID,Description,Preconditions,Test Steps,Expected Result
-TC_01,Verify that the "Age Category" field is correctly calculated as "Childhood" for ages less than 12,Age data is available in Clinical_Data_Validation_Cohort.xlsx,Extract age data for patients from Clinical_Data_Validation_Cohort.xlsx; Verify that the "Age Category" field in age_category_data.csv is "Childhood" for patients with age less than 12,The "Age Category" field should be "Childhood" for patients with age less than 12
-TC_02,Verify that the "Age Category" field is correctly calculated as "Teenage" for ages between 12 and 20,Age data is available in Clinical_Data_Validation_Cohort.xlsx,Extract age data for patients from Clinical_Data_Validation_Cohort.xlsx; Verify that the "Age Category" field in age_category_data.csv is "Teenage" for patients with age between 12 and 20,The "Age Category" field should be "Teenage" for patients with age between 12 and 20
-TC_03,Verify that the "Age Category" field is correctly calculated as "Adult" for ages between 21 and 60,Age data is available in Clinical_Data_Validation_Cohort.xlsx,Extract age data for patients from Clinical_Data_Validation_Cohort.xlsx; Verify that the "Age Category" field in age_category_data.csv is "Adult" for patients with age between 21 and 60,The "Age Category" field should be "Adult" for patients with age between 21 and 60
-TC_04,Verify that the "Age Category" field is correctly calculated as "Old" for ages above 60,Age data is available in Clinical_Data_Validation_Cohort.xlsx,Extract age data for patients from Clinical_Data_Validation_Cohort.xlsx; Verify that the "Age Category" field in age_category_data.csv is "Old" for patients with age above 60,The "Age Category" field should be "Old" for patients with age above 60
+TC_01,Verify that the "Age Category" field is correctly calculated as "Childhood" for ages less than 12,The "Clinical_Data_Validation_Cohort.xlsx" file contains patient ages less than 12,1. Load the "Clinical_Data_Validation_Cohort.xlsx" file.
+2. Load the "age_category_data.csv" file.
+3. Map the files based on "Patient ID".
+4. Verify that the "Age Category" field is "Childhood" for patients with ages less than 12.,The "Age Category" field should be "Childhood" for patients with ages less than 12.
+TC_02,Verify that the "Age Category" field is correctly calculated as "Teenage" for ages between 12 and 20,The "Clinical_Data_Validation_Cohort.xlsx" file contains patient ages between 12 and 20,1. Load the "Clinical_Data_Validation_Cohort.xlsx" file.
+2. Load the "age_category_data.csv" file.
+3. Map the files based on "Patient ID".
+4. Verify that the "Age Category" field is "Teenage" for patients with ages between 12 and 20.,The "Age Category" field should be "Teenage" for patients with ages between 12 and 20.
+TC_03,Verify that the "Age Category" field is correctly calculated as "Adult" for ages between 21 and 60,The "Clinical_Data_Validation_Cohort.xlsx" file contains patient ages between 21 and 60,1. Load the "Clinical_Data_Validation_Cohort.xlsx" file.
+2. Load the "age_category_data.csv" file.
+3. Map the files based on "Patient ID".
+4. Verify that the "Age Category" field is "Adult" for patients with ages between 21 and 60.,The "Age Category" field should be "Adult" for patients with ages between 21 and 60.
+TC_04,Verify that the "Age Category" field is correctly calculated as "Old" for ages greater than 60,The "Clinical_Data_Validation_Cohort.xlsx" file contains patient ages greater than 60,1. Load the "Clinical_Data_Validation_Cohort.xlsx" file.
+2. Load the "age_category_data.csv" file.
+3. Map the files based on "Patient ID".
+4. Verify that the "Age Category" field is "Old" for patients with ages greater than 60.,The "Age Category" field should be "Old" for patients with ages greater than 60.
