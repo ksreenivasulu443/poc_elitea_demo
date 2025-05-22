@@ -1,0 +1,4 @@
+User Story: Date of Birth Field Validation
+As a data quality tester,
+I want to ensure the date_of_birth field contains valid and realistic dates
+So that we can maintain accurate and trustworthy customer data.
