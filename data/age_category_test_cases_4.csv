@@ -1,0 +1,9 @@
+age,expected_category
+5,Childhood
+13,Teenage
+19,Teenage
+20,Adult
+64,Adult
+65,Old
+80,Old
+-1,Invalid Age
