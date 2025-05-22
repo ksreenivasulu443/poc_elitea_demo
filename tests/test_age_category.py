@@ -1,18 +1,28 @@
 import pytest
+import pandas as pd
 
-# Sample test data
-age_data = {
-    10: "Child",
-    15: "Teen",
-    25: "Young Adult",
-    40: "Adult",
-    60: "Senior",
-    80: "Elderly"
-}
+# Sample function to categorize age
 
-@pytest.mark.parametrize("age, expected_category", age_data.items())
-def test_age_category(age, expected_category):
-    # Here you would call the function that categorizes age
-    # For example: category = categorize_age(age)
-    # assert category == expected_category
-    assert True  # Placeholder assertion for demonstration
+def categorize_age(age):
+    if age < 12:
+        return "Childhood"
+    elif 12 <= age <= 20:
+        return "Teenage"
+    elif 21 <= age <= 60:
+        return "Adult"
+    else:
+        return "Old"
+
+# Test cases
+
+def test_age_category_childhood():
+    assert categorize_age(10) == "Childhood"
+
+def test_age_category_teenage():
+    assert categorize_age(15) == "Teenage"
+
+def test_age_category_adult():
+    assert categorize_age(30) == "Adult"
+
+def test_age_category_old():
+    assert categorize_age(65) == "Old"
