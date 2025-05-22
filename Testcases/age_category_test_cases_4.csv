@@ -1,0 +1,37 @@
+Test Case ID,Description,Test Steps,Expected Result,Test Data
+TC_001,Verify the age category for patients with age less than 12,"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with age less than 12.
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be 'Childhood',Patient ID, Age < 12
+TC_002,Verify the age category for patients with age between 12 and 20,"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with age between 12 and 20.
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be 'Teenage',Patient ID, Age between 12 and 20
+TC_003,Verify the age category for patients with age between 21 and 60,"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with age between 21 and 60.
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be 'Adult',Patient ID, Age between 21 and 60
+TC_004,Verify the age category for patients with age greater than 60,"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with age greater than 60.
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be 'Old',Patient ID, Age > 60
+TC_005,Verify the mapping between 'age_category_data.csv' and 'Clinical_Data_Validation_Cohort.xlsx' based on 'Patient ID',"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Note the 'Patient ID' values.
+3. Open 'age_category_data.csv'.
+4. Verify that each 'Patient ID' in 'age_category_data.csv' matches with 'Clinical_Data_Validation_Cohort.xlsx'.",Correct mapping between the two files,Patient ID
+TC_006,Verify the age category for patients with invalid age values (e.g., negative age),"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with invalid age values (e.g., negative age).
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be empty or show an error,Patient ID, Age < 0
+TC_007,Verify the age category for patients with missing age values,"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with missing age values.
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be empty or show an error,Patient ID, Age missing
+TC_008,Verify the age category for patients with non-numeric age values,"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Identify patients with non-numeric age values.
+3. Open 'age_category_data.csv'.
+4. Verify the 'Age Category' field for the identified patients.",Age category should be empty or show an error,Patient ID, Age non-numeric
+TC_009,Verify the mapping between 'age_category_data.csv' and 'Clinical_Data_Validation_Cohort.xlsx' for non-existent 'Patient ID',"1. Open 'Clinical_Data_Validation_Cohort.xlsx'.
+2. Note a non-existent 'Patient ID'.
+3. Open 'age_category_data.csv'.
+4. Verify that the non-existent 'Patient ID' does not exist in 'age_category_data.csv'.",Non-existent 'Patient ID' should not be present in 'age_category_data.csv',Non-existent Patient ID
